@@ -1,0 +1,9 @@
+wilson@wilson-Inspiron-5559:~/Escritorio/Proyecto2/cloud$ make
+wilson@wilson-Inspiron-5559:~/Escritorio/Proyecto2/cloud$ ./sharp_mpi racoon.jpg
+
+//Pasar archivos a Kabre
+ scp /home/wilson/clusterdir/test/racoon.jpg    curso-106@cluster.cenat.ac.cr:/home/curso-106/Proyecto/
+
+
+
+mpic++ -o run_mpi Progra2.cpp `pkg-config --libs opencv`

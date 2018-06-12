@@ -1,0 +1,10 @@
+#PBS -N result
+#PBS -q phi-n5h24
+#PBS -l nodes=2
+#PBS -l walltime=00:15:00
+
+
+cd $PBS_O_WORKDIR
+
+export OMP_NUM_THREADS=8
+./Run_file
